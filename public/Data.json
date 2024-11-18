@@ -1,0 +1,28 @@
+
+[
+    {
+      "id": 1,
+      "name": "Handmade Tote Bag",
+      "description": "A beautifully crafted tote bag made with eco-friendly materials.",
+      "price": 45.99,
+      "image": "tote-bag.jpg",
+      "category": "Bags"
+    },
+    {
+      "id": 2,
+      "name": "Painted Canvas Backpack",
+      "description": "An artistic backpack with hand-painted designs.",
+      "price": 65.00,
+      "image": "canvas-backpack.jpg",
+      "category": "Backpacks"
+    },
+    {
+      "id": 3,
+      "name": "Hand-Painted Clutch",
+      "description": "A clutch with intricate hand-painted designs.",
+      "price": 30.50,
+      "image": "painted-clutch.jpg",
+      "category": "Clutches"
+    }
+  ]
+  

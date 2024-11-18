@@ -1,0 +1,163 @@
+/* Carousel Background */
+.home-background {
+  background: linear-gradient(135deg, #cfa0ed, #b967ff, #6b5b95); /* Updated gradient colors */
+  background-size: cover;
+  background-repeat: no-repeat;
+  min-height: 100vh;
+}
+
+/* Carousel Container */
+.carousel-container {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 450px;
+  overflow: hidden;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  background-color: #f5f5f5;
+}
+
+/* Carousel Image */
+.carousel-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 8px;
+  transition: opacity 0.5s ease-in-out;
+  background-color: #fff;
+}
+
+/* CTA Overlay */
+.cta-overlay {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  color: #ffffff;
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 20px 40px;
+  border-radius: 8px;
+}
+
+.cta-overlay h2 {
+  font-size: 2em;
+  margin-bottom: 10px;
+  font-weight: bold;
+}
+
+.cta-button {
+  padding: 10px 20px;
+  font-size: 1em;
+  color: #ffffff;
+  background-color: #8368c7; /* Primary color for buttons */
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.cta-button:hover {
+  background-color: #6b5b95; /* Hover color */
+}
+
+/* Navigation Buttons */
+.nav-button-left,
+.nav-button-right {
+  position: absolute;
+  top: 50%;
+  font-size: 24px;
+  background: rgba(0, 0, 0, 0.5);
+  color: white;
+  border: none;
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  cursor: pointer;
+  transform: translateY(-50%);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.nav-button-left {
+  left: 20px;
+}
+
+.nav-button-right {
+  right: 20px;
+}
+
+/* Feature Collection */
+.feature-collection {
+  padding: 30px 20px;
+  text-align: center;
+  background-color: #f5f5f5;
+}
+
+.feature-collection-heading {
+  font-size: 2rem;
+  color: #6b5b95; /* Primary heading color */
+  margin-bottom: 30px;
+  font-weight: bold;
+}
+
+.feature-collection-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 10px;
+  margin: 0% auto;
+  padding: 10px;
+  max-width: 1500px;
+}
+
+.collection-card {
+  background-color: #ffffff;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  overflow: hidden;
+  text-align: center;
+  transition: transform 0.3s ease;
+}
+
+.collection-card:hover {
+  transform: translateY(-5px);
+}
+
+.collection-image {
+  width: 100%;
+  height: 250px;
+  object-fit: cover;
+  border-bottom: 2px solid #ddd;
+}
+
+.collection-title {
+  font-size: 1.2em;
+  font-weight: bold;
+  margin: 15px 0;
+  color: #553767; /* Secondary text color */
+  padding: 0 10px;
+}
+
+/* Story Section */
+.story-section {
+  background: linear-gradient(135deg, #b8a0e3, #6b5b95); /* Gradient with primary and secondary colors */
+  padding: 30px 20px;
+  text-align: center;
+  color: #ffffff;
+}
+
+.learn-more-button {
+  background-color: #8368c7; /* Primary button color */
+  color: #fff;
+  border: none;
+  padding: 5px 10px;
+  cursor: pointer;
+}
+
+.learn-more-button:hover {
+  background-color: #6b5b95; /* Hover color for button */
+}
