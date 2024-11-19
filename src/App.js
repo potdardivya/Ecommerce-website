@@ -1,4 +1,3 @@
-import './App.css';
 import { BrowserRouter as Router,Routes, Route } from 'react-router-dom';
 import NavBar from './components/Pages/NavBar/NavBar';
 import Home from './components/Pages/Home/Home'
@@ -6,7 +5,6 @@ import AboutUs from './components/Pages/AboutUs/AboutUs'
 import Products from './components/Pages/Products/Products'
 import Contact from './components/Pages/Contact/Contact'
 import Login from './components/Pages/Login/Login'
-
 
 function App() {
   return (
